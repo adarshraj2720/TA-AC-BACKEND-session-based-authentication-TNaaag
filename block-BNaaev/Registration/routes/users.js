@@ -12,6 +12,8 @@ router.get('/register',(req,res,next)=>{
   res.render('registration')
 })
 
+// router.get('/eg')
+
 router.post('/register',(req,res,next)=>{
   // res.render('registration')
   //console.log(req.body)
